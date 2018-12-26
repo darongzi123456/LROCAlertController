@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7E81C321D32B230057E431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81C221D32B230057E431 /* AppDelegate.m */; };
+		AA7E81C621D32B230057E431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81C521D32B230057E431 /* ViewController.m */; };
+		AA7E81C921D32B230057E431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E81C721D32B230057E431 /* Main.storyboard */; };
+		AA7E81CB21D32B230057E431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7E81CA21D32B230057E431 /* Assets.xcassets */; };
+		AA7E81CE21D32B230057E431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E81CC21D32B230057E431 /* LaunchScreen.storyboard */; };
+		AA7E81D121D32B230057E431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81D021D32B230057E431 /* main.m */; };
+		AA7E81DB21D32B230057E431 /* LROCAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81DA21D32B230057E431 /* LROCAlertControllerTests.m */; };
+		AA7E81E621D32B230057E431 /* LROCAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81E521D32B230057E431 /* LROCAlertControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7E81D721D32B230057E431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E81B621D32B230057E431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E81BD21D32B230057E431;
+			remoteInfo = LROCAlertController;
+		};
+		AA7E81E221D32B230057E431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E81B621D32B230057E431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E81BD21D32B230057E431;
+			remoteInfo = LROCAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7E81BE21D32B230057E431 /* LROCAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LROCAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E81C121D32B230057E431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA7E81C221D32B230057E431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA7E81C421D32B230057E431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA7E81C521D32B230057E431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA7E81C821D32B230057E431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7E81CA21D32B230057E431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7E81CD21D32B230057E431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7E81CF21D32B230057E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E81D021D32B230057E431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7E81D621D32B230057E431 /* LROCAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LROCAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E81DA21D32B230057E431 /* LROCAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LROCAlertControllerTests.m; sourceTree = "<group>"; };
+		AA7E81DC21D32B230057E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E81E121D32B230057E431 /* LROCAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LROCAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E81E521D32B230057E431 /* LROCAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LROCAlertControllerUITests.m; sourceTree = "<group>"; };
+		AA7E81E721D32B230057E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7E81BB21D32B230057E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81D321D32B230057E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81DE21D32B230057E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7E81B521D32B230057E431 = {
+			isa = PBXGroup;
+			children = (
+				AA7E81C021D32B230057E431 /* LROCAlertController */,
+				AA7E81D921D32B230057E431 /* LROCAlertControllerTests */,
+				AA7E81E421D32B230057E431 /* LROCAlertControllerUITests */,
+				AA7E81BF21D32B230057E431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7E81BF21D32B230057E431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81BE21D32B230057E431 /* LROCAlertController.app */,
+				AA7E81D621D32B230057E431 /* LROCAlertControllerTests.xctest */,
+				AA7E81E121D32B230057E431 /* LROCAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7E81C021D32B230057E431 /* LROCAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81C121D32B230057E431 /* AppDelegate.h */,
+				AA7E81C221D32B230057E431 /* AppDelegate.m */,
+				AA7E81C421D32B230057E431 /* ViewController.h */,
+				AA7E81C521D32B230057E431 /* ViewController.m */,
+				AA7E81C721D32B230057E431 /* Main.storyboard */,
+				AA7E81CA21D32B230057E431 /* Assets.xcassets */,
+				AA7E81CC21D32B230057E431 /* LaunchScreen.storyboard */,
+				AA7E81CF21D32B230057E431 /* Info.plist */,
+				AA7E81D021D32B230057E431 /* main.m */,
+			);
+			path = LROCAlertController;
+			sourceTree = "<group>";
+		};
+		AA7E81D921D32B230057E431 /* LROCAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81DA21D32B230057E431 /* LROCAlertControllerTests.m */,
+				AA7E81DC21D32B230057E431 /* Info.plist */,
+			);
+			path = LROCAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		AA7E81E421D32B230057E431 /* LROCAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81E521D32B230057E431 /* LROCAlertControllerUITests.m */,
+				AA7E81E721D32B230057E431 /* Info.plist */,
+			);
+			path = LROCAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7E81BD21D32B230057E431 /* LROCAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E81EA21D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertController" */;
+			buildPhases = (
+				AA7E81BA21D32B230057E431 /* Sources */,
+				AA7E81BB21D32B230057E431 /* Frameworks */,
+				AA7E81BC21D32B230057E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LROCAlertController;
+			productName = LROCAlertController;
+			productReference = AA7E81BE21D32B230057E431 /* LROCAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7E81D521D32B230057E431 /* LROCAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E81ED21D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertControllerTests" */;
+			buildPhases = (
+				AA7E81D221D32B230057E431 /* Sources */,
+				AA7E81D321D32B230057E431 /* Frameworks */,
+				AA7E81D421D32B230057E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7E81D821D32B230057E431 /* PBXTargetDependency */,
+			);
+			name = LROCAlertControllerTests;
+			productName = LROCAlertControllerTests;
+			productReference = AA7E81D621D32B230057E431 /* LROCAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7E81E021D32B230057E431 /* LROCAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E81F021D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertControllerUITests" */;
+			buildPhases = (
+				AA7E81DD21D32B230057E431 /* Sources */,
+				AA7E81DE21D32B230057E431 /* Frameworks */,
+				AA7E81DF21D32B230057E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7E81E321D32B230057E431 /* PBXTargetDependency */,
+			);
+			name = LROCAlertControllerUITests;
+			productName = LROCAlertControllerUITests;
+			productReference = AA7E81E121D32B230057E431 /* LROCAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7E81B621D32B230057E431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dalizi;
+				TargetAttributes = {
+					AA7E81BD21D32B230057E431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AA7E81D521D32B230057E431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7E81BD21D32B230057E431;
+					};
+					AA7E81E021D32B230057E431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7E81BD21D32B230057E431;
+					};
+				};
+			};
+			buildConfigurationList = AA7E81B921D32B230057E431 /* Build configuration list for PBXProject "LROCAlertController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7E81B521D32B230057E431;
+			productRefGroup = AA7E81BF21D32B230057E431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7E81BD21D32B230057E431 /* LROCAlertController */,
+				AA7E81D521D32B230057E431 /* LROCAlertControllerTests */,
+				AA7E81E021D32B230057E431 /* LROCAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7E81BC21D32B230057E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E81CE21D32B230057E431 /* LaunchScreen.storyboard in Resources */,
+				AA7E81CB21D32B230057E431 /* Assets.xcassets in Resources */,
+				AA7E81C921D32B230057E431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81D421D32B230057E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81DF21D32B230057E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7E81BA21D32B230057E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E81C621D32B230057E431 /* ViewController.m in Sources */,
+				AA7E81D121D32B230057E431 /* main.m in Sources */,
+				AA7E81C321D32B230057E431 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81D221D32B230057E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E81DB21D32B230057E431 /* LROCAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E81DD21D32B230057E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E81E621D32B230057E431 /* LROCAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7E81D821D32B230057E431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E81BD21D32B230057E431 /* LROCAlertController */;
+			targetProxy = AA7E81D721D32B230057E431 /* PBXContainerItemProxy */;
+		};
+		AA7E81E321D32B230057E431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E81BD21D32B230057E431 /* LROCAlertController */;
+			targetProxy = AA7E81E221D32B230057E431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7E81C721D32B230057E431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E81C821D32B230057E431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7E81CC21D32B230057E431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E81CD21D32B230057E431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7E81E821D32B230057E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA7E81E921D32B230057E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7E81EB21D32B230057E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7E81EC21D32B230057E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA7E81EE21D32B230057E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LROCAlertController.app/LROCAlertController";
+			};
+			name = Debug;
+		};
+		AA7E81EF21D32B230057E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LROCAlertController.app/LROCAlertController";
+			};
+			name = Release;
+		};
+		AA7E81F121D32B230057E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LROCAlertController;
+			};
+			name = Debug;
+		};
+		AA7E81F221D32B230057E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962P348243;
+				INFOPLIST_FILE = LROCAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LROCAlert.LROCAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LROCAlertController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7E81B921D32B230057E431 /* Build configuration list for PBXProject "LROCAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E81E821D32B230057E431 /* Debug */,
+				AA7E81E921D32B230057E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E81EA21D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E81EB21D32B230057E431 /* Debug */,
+				AA7E81EC21D32B230057E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E81ED21D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E81EE21D32B230057E431 /* Debug */,
+				AA7E81EF21D32B230057E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E81F021D32B230057E431 /* Build configuration list for PBXNativeTarget "LROCAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E81F121D32B230057E431 /* Debug */,
+				AA7E81F221D32B230057E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7E81B621D32B230057E431 /* Project object */;
+}
