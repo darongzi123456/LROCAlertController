@@ -15,6 +15,13 @@
 		AA7E81D121D32B230057E431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81D021D32B230057E431 /* main.m */; };
 		AA7E81DB21D32B230057E431 /* LROCAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81DA21D32B230057E431 /* LROCAlertControllerTests.m */; };
 		AA7E81E621D32B230057E431 /* LROCAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E81E521D32B230057E431 /* LROCAlertControllerUITests.m */; };
+		AA7E822321D4D0DF0057E431 /* LRAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E821F21D4D0DF0057E431 /* LRAlertAction.m */; };
+		AA7E822421D4D0DF0057E431 /* LRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E822121D4D0DF0057E431 /* LRAlertController.m */; };
+		AA7E822721D4D1070057E431 /* LRAlertModalTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E822521D4D1060057E431 /* LRAlertModalTransitionDelegate.m */; };
+		AA7E822A21D4D11B0057E431 /* LRAlertAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E822921D4D11B0057E431 /* LRAlertAnimationController.m */; };
+		AA7E822D21D4D1400057E431 /* LRAlertPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E822B21D4D1400057E431 /* LRAlertPresentationController.m */; };
+		AA89972F21DF0E6A00588CF8 /* UIDevice+LRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89972E21DF0E6A00588CF8 /* UIDevice+LRFoundation.m */; };
+		AA89973221DF245000588CF8 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89973121DF245000588CF8 /* UIView+Geometry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		AA7E81E121D32B230057E431 /* LROCAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LROCAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7E81E521D32B230057E431 /* LROCAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LROCAlertControllerUITests.m; sourceTree = "<group>"; };
 		AA7E81E721D32B230057E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E821F21D4D0DF0057E431 /* LRAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAlertAction.m; sourceTree = "<group>"; };
+		AA7E822021D4D0DF0057E431 /* LRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAlertController.h; sourceTree = "<group>"; };
+		AA7E822121D4D0DF0057E431 /* LRAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAlertController.m; sourceTree = "<group>"; };
+		AA7E822221D4D0DF0057E431 /* LRAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAlertAction.h; sourceTree = "<group>"; };
+		AA7E822521D4D1060057E431 /* LRAlertModalTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAlertModalTransitionDelegate.m; sourceTree = "<group>"; };
+		AA7E822621D4D1060057E431 /* LRAlertModalTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAlertModalTransitionDelegate.h; sourceTree = "<group>"; };
+		AA7E822821D4D11B0057E431 /* LRAlertAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAlertAnimationController.h; sourceTree = "<group>"; };
+		AA7E822921D4D11B0057E431 /* LRAlertAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAlertAnimationController.m; sourceTree = "<group>"; };
+		AA7E822B21D4D1400057E431 /* LRAlertPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAlertPresentationController.m; sourceTree = "<group>"; };
+		AA7E822C21D4D1400057E431 /* LRAlertPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAlertPresentationController.h; sourceTree = "<group>"; };
+		AA89972C21DF098200588CF8 /* LRAlertUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAlertUtil.h; sourceTree = "<group>"; };
+		AA89972D21DF0E6A00588CF8 /* UIDevice+LRFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LRFoundation.h"; sourceTree = "<group>"; };
+		AA89972E21DF0E6A00588CF8 /* UIDevice+LRFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LRFoundation.m"; sourceTree = "<group>"; };
+		AA89973021DF245000588CF8 /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		AA89973121DF245000588CF8 /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +123,10 @@
 		AA7E81C021D32B230057E431 /* LROCAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				AA7E81C121D32B230057E431 /* AppDelegate.h */,
-				AA7E81C221D32B230057E431 /* AppDelegate.m */,
-				AA7E81C421D32B230057E431 /* ViewController.h */,
-				AA7E81C521D32B230057E431 /* ViewController.m */,
-				AA7E81C721D32B230057E431 /* Main.storyboard */,
-				AA7E81CA21D32B230057E431 /* Assets.xcassets */,
-				AA7E81CC21D32B230057E431 /* LaunchScreen.storyboard */,
+				AA89972921DF090C00588CF8 /* AppDelegate */,
+				AA89972A21DF091A00588CF8 /* LROCAlertControllerDemo */,
+				AA7E81F321D32CE10057E431 /* LROCSystemFiles */,
 				AA7E81CF21D32B230057E431 /* Info.plist */,
-				AA7E81D021D32B230057E431 /* main.m */,
 			);
 			path = LROCAlertController;
 			sourceTree = "<group>";
@@ -130,6 +147,66 @@
 				AA7E81E721D32B230057E431 /* Info.plist */,
 			);
 			path = LROCAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		AA7E81F321D32CE10057E431 /* LROCSystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81D021D32B230057E431 /* main.m */,
+				AA7E81CC21D32B230057E431 /* LaunchScreen.storyboard */,
+				AA7E81CA21D32B230057E431 /* Assets.xcassets */,
+				AA7E81C721D32B230057E431 /* Main.storyboard */,
+			);
+			path = LROCSystemFiles;
+			sourceTree = "<group>";
+		};
+		AA7E822E21D4D2550057E431 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E822621D4D1060057E431 /* LRAlertModalTransitionDelegate.h */,
+				AA7E822521D4D1060057E431 /* LRAlertModalTransitionDelegate.m */,
+				AA7E822821D4D11B0057E431 /* LRAlertAnimationController.h */,
+				AA7E822921D4D11B0057E431 /* LRAlertAnimationController.m */,
+				AA7E822C21D4D1400057E431 /* LRAlertPresentationController.h */,
+				AA7E822B21D4D1400057E431 /* LRAlertPresentationController.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		AA89972921DF090C00588CF8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E81C121D32B230057E431 /* AppDelegate.h */,
+				AA7E81C221D32B230057E431 /* AppDelegate.m */,
+				AA7E81C421D32B230057E431 /* ViewController.h */,
+				AA7E81C521D32B230057E431 /* ViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AA89972A21DF091A00588CF8 /* LROCAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E822021D4D0DF0057E431 /* LRAlertController.h */,
+				AA7E822121D4D0DF0057E431 /* LRAlertController.m */,
+				AA7E822221D4D0DF0057E431 /* LRAlertAction.h */,
+				AA7E821F21D4D0DF0057E431 /* LRAlertAction.m */,
+				AA89972B21DF096E00588CF8 /* Util */,
+				AA7E822E21D4D2550057E431 /* Transition */,
+			);
+			path = LROCAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		AA89972B21DF096E00588CF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA89972C21DF098200588CF8 /* LRAlertUtil.h */,
+				AA89972D21DF0E6A00588CF8 /* UIDevice+LRFoundation.h */,
+				AA89972E21DF0E6A00588CF8 /* UIDevice+LRFoundation.m */,
+				AA89973021DF245000588CF8 /* UIView+Geometry.h */,
+				AA89973121DF245000588CF8 /* UIView+Geometry.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA89973221DF245000588CF8 /* UIView+Geometry.m in Sources */,
+				AA7E822721D4D1070057E431 /* LRAlertModalTransitionDelegate.m in Sources */,
 				AA7E81C621D32B230057E431 /* ViewController.m in Sources */,
+				AA89972F21DF0E6A00588CF8 /* UIDevice+LRFoundation.m in Sources */,
+				AA7E822421D4D0DF0057E431 /* LRAlertController.m in Sources */,
 				AA7E81D121D32B230057E431 /* main.m in Sources */,
+				AA7E822321D4D0DF0057E431 /* LRAlertAction.m in Sources */,
+				AA7E822A21D4D11B0057E431 /* LRAlertAnimationController.m in Sources */,
 				AA7E81C321D32B230057E431 /* AppDelegate.m in Sources */,
+				AA7E822D21D4D1400057E431 /* LRAlertPresentationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
